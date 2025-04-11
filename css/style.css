@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 10px;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    padding: 30px;
+    padding-right: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+#myvideo{
+    position: absolute;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 400px;
+    z-index: -1;
+}
+.logo img {
+    width: 80px; /* Adjust size as needed */
+    align-items: center;
+    visibility: visible;
+    padding-left: 15px;
+    height: auto;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #333;
+}
+input.placeholder{
+    text-align: center;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.form-group #username{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.form-group #password{
+    border-radius: 20px;
+}
+.button{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left:20px ;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #ffcc00; /* Pineapple color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e6b800; /* Darker shade on hover */
+}
